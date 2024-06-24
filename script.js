@@ -2,7 +2,8 @@ const insert = document.getElementById('insert');
 
 window.addEventListener('keydown', (e) => {
   insert.innerHTML = `
-    <div class='color'>
+    <div class='color' >
+    <h1 class='heading'>Key Press Logger Pro</h1>
     <table>
     <tr>
       <th>Key</th>
