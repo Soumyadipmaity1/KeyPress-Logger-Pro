@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Event KeyCodes</title>
-    <link rel="stylesheet" type="text/css" href="../styles.css" />
-    <style>
-      table,
-      th,
-      td {
-        border: 2px solid #e7e7e7;
-      }
-      td,th{
-        padding: 40px;
-        font-size: 30px;
 
-      }
-      th{
-        background-color: rgb(9, 9, 52);
-      }
-      td{
-        background-color: rgb(0, 0, 0);
-      }
-      table{
-        padding: 2px;
-      }
-      .project {
-        background-color: #1c1c1c;
-        color: #ffffff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 97vh;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Event KeyCodes</title>
+  <link rel="stylesheet" type="text/css" href="../styles.css" />
+  <style>
+    table,
+    th,
+    td {
+      border: 2px solid #e7e7e7;
+    }
 
-      .color {
-        color: aliceblue;
-        display: flex;
-        flex-direction: row;
-        padding: 10px;
-      }
-      .key{
-        font-size: 40px;
-      }
-    </style>
-  </head>
-  <body>
-   
-    <div class="project">
-      <div id="insert">
-        <div class="key">Press the key and watch magic</div>
+    td,
+    th {
+      padding: 40px;
+      font-size: 30px;
+
+    }
+
+    th {
+      background-color: rgb(9, 9, 52);
+    }
+
+    td {
+      background-color: rgb(0, 0, 0);
+    }
+
+    table {
+      padding: 2px;
+    }
+
+    .project {
+      background-color: #1c1c1c;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 97vh;
+    }
+
+    .color {
+      color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .key {
+      font-size: 40px;
+      color: orangered
+    }
+
+    .heading {
+      color: yellow;
+      padding-bottom: 150px;
+      font-size: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="project">
+    <div id="insert">
+      <div class="key">
+        <h2>Press the key and watch magic</h2>
       </div>
     </div>
+  </div>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>
